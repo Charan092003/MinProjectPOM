@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MiniProjectPOM(failed)">
+    <classes>
+      <class name="com.cts.miniproject.testrunners.MiniProjectTest">
+        <methods>
+          <include name="endit"/>
+          <include name="init"/>
+          <include name="testcases"/>
+        </methods>
+      </class> <!-- com.cts.miniproject.testrunners.MiniProjectTest -->
+    </classes>
+  </test> <!-- MiniProjectPOM(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
